@@ -1,0 +1,23 @@
+naser445@antix1:~/projects/ATS_16.1/scripts
+$ ./run.sh 
+Launching ATS_16.1...
+Traceback (most recent call last):
+  File "/home/naser445/projects/ATS_16.1/bin/app.py", line 14, in <module>
+    main()
+  File "/home/naser445/projects/ATS_16.1/bin/app.py", line 7, in main
+    frame_module = loader.load("appMainFrame")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/naser445/projects/ATS_16.1/bin/dynamicLoader.py", line 35, in load
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/naser445/projects/ATS_16.1/bin/src/appMainFrame.py", line 149
+    if session_manager.has_unsaved_work():
+    ^
+IndentationError: expected an indented block after function definition on line 144
+naser445@antix1:~/projects/ATS_16.1/scripts
+$ 
+
+

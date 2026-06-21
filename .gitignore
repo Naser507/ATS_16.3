@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# Runtime config
+bin/config/session_cache.json
+bin/config/last_audio_path.json
+
+# Logs
+config/logs/
+*.log
+
+# Temporary audio files
+bin/temp/
+bin/temp_output.wav
+scripts/temp_output.wav
+
+# Build artifacts
+Build/
+bin/Shared_Lib/*.so
+bin/Shared_Lib/*.dll
+bin/Shared_Lib/*.dylib
+
+# Audio converter binaries
+bin/audio_converter
+
+# OS files
+.DS_Store
+Thumbs.db

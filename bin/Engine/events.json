@@ -1,0 +1,28 @@
+{
+  "run_chain": [
+    "run_message"
+  ],
+  "save_chain": [
+    "save_message"
+  ],
+
+  "file_new_audio": [
+    "file_new_audio"
+  ],
+
+  "file_remove_audio": [
+    "file_remove_audio"
+  ],
+
+  "file_convert_audio": [
+    "file_convert_audio"
+  ],
+
+  "file_save_audio": [
+    "file_save_audio"
+  ],
+
+  "app_exit": [
+    "app_exit"
+  ]
+}

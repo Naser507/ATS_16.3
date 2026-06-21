@@ -1,0 +1,90 @@
+naser445@antix1:~/projects/ATS_16.3
+$ tree
+.
+├── Assets
+├── bin
+│   ├── app.py
+│   ├── audio_converter
+│   ├── config
+│   │   ├── last_audio_path.json
+│   │   └── session_cache.json
+│   ├── dynamicLoader.py
+│   ├── Engine
+│   │   ├── audio_converter.cpp
+│   │   └── events.json
+│   ├── EventManager.py
+│   ├── __pycache__
+│   │   ├── dynamicLoader.cpython-311.pyc
+│   │   ├── EventManager.cpython-311.pyc
+│   │   └── SessionManager.cpython-311.pyc
+│   ├── SessionManager.py
+│   ├── Shared_Lib
+│   ├── src
+│   │   ├── app_exit.py
+│   │   ├── appMainFrame.py
+│   │   ├── audio_temp_manager.py
+│   │   ├── bottomPanelEmpty.py
+│   │   ├── file_convert_audio.py
+│   │   ├── file_new_audio.py
+│   │   ├── file_remove_audio.py
+│   │   ├── file_save_audio.py
+│   │   ├── layer1_menuStrip.py
+│   │   ├── layer2_topPanel.py
+│   │   ├── layer3_bottomPanel_class.py
+│   │   ├── layer4_bottomRightButtons.py
+│   │   ├── menu_file.py
+│   │   ├── __pycache__
+│   │   │   ├── app_exit.cpython-311.pyc
+│   │   │   ├── appMainFrame.cpython-311.pyc
+│   │   │   ├── audio_temp_manager.cpython-311.pyc
+│   │   │   ├── bottomPanelEmpty.cpython-311.pyc
+│   │   │   ├── file_convert_audio.cpython-311.pyc
+│   │   │   ├── file_new_audio.cpython-311.pyc
+│   │   │   ├── file_remove_audio.cpython-311.pyc
+│   │   │   ├── file_save_audio.cpython-311.pyc
+│   │   │   ├── layer1_menuStrip.cpython-311.pyc
+│   │   │   ├── layer2_topPanel.cpython-311.pyc
+│   │   │   ├── layer3_bottomPanel_class.cpython-311.pyc
+│   │   │   ├── layer4_bottomRightButtons.cpython-311.pyc
+│   │   │   ├── menu_file.cpython-311.pyc
+│   │   │   ├── run_message.cpython-311.pyc
+│   │   │   ├── save_message.cpython-311.pyc
+│   │   │   └── topPanel.cpython-311.pyc
+│   │   ├── run_message.py
+│   │   ├── save_message.py
+│   │   ├── test_step.py
+│   │   └── topPanel.py
+│   ├── temp
+│   │   └── results
+│   │       ├── long-audio-5min_1.wav
+│   │       ├── long-audio-5min_2.wav
+│   │       └── long-audio-5min.wav
+│   └── temp_output.wav
+├── Build
+├── config
+│   └── logs
+├── Notes
+│   ├── issues.txt
+│   ├── MyInstructions.txt
+│   └── YourFeedback.txt
+├── Releases
+├── scripts
+│   ├── audiocheck.net_hdchirp_88k_-3dBFS_lin.wav
+│   ├── run.sh
+│   └── temp_output.wav
+└── tests
+    ├── audiocheck.net_hdchirp_176k_-3dBFS_lin.wav
+    ├── audiocheck.net_hdchirp_192k_-3dBFS_lin.wav
+    ├── audiocheck.net_hdchirp_88k_-3dBFS_lin.wav
+    ├── audiocheck.net_hdchirp_96k_-3dBFS_lin.wav
+    ├── audiocheck.net_hdsweep_1Hz_44000Hz_-3dBFS_30s.wav
+    ├── file_example_MP3_700KB.mp3
+    ├── long-audio-5min.mp3
+    ├── low-bitrate-48kbps.m4a
+    ├── music-sample-128kbps.mp3
+    ├── music-sample-128kbps.wma
+    └── tone-test.mp3
+
+18 directories, 66 files
+naser445@antix1:~/projects/ATS_16.3
+$
